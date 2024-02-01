@@ -2,12 +2,14 @@
 
 This repository contains exercises to get familiar with CSS.
 
-== Box Model
 
-In CSS, every Element has a Box consisting of margin, border, padding, and content around it.
+== Box Model / Normal Layout
+
+In CSS, every Element has a Box consisting of margin, border, padding, and content around it. By default, boxes are either displayed as block, filling the available inline space of their parent or displayed inline, making them take the size of their content.
 
 .Sources
 - https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model[MDN]
+- https://www.joshwcomeau.com/css/understanding-layout-algorithms/[Understanding Layout Algorithms]
 
 
 .Exercise
@@ -16,8 +18,32 @@ https://codepen.io/TPlise/pen/gOEvZME[Codepen]
 
 . Change the display value of paragraphs and spans and see how the layout changes
 . Apply padding and margins to an element with display block and an element with display inline
-. Apply width and height values to the different elements
+. Apply width and height values to block and inline displayed elements.
 . Use box-sizing: border-box and see how width and height are applied differently
 . Apply margins to two adjacent elements, so that the margins collapse
+****
+
+== Flexbox
+
+Flexbox allows you to layout elements in one dimension, as row or as a column. 
+
+
+.Sources
+- https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox[MDN]
+- https://css-tricks.com/snippets/css/a-guide-to-flexbox/[CSS Tricks]
+
+
+.Exercise
+****
+https://codepen.io/TPlise/pen/zYbWZxo[Codepen] 
+
+. Align the sections next to each other
+. Center the article both horizontally and vertically
+. Make the sections split into multiple rows if the Viewport cannot display all in one row
+. Make the sections stretch so that the article takes the full width of the viewport
+. Make the second section get up twice as wide as the others, in case there is enough space
+. Make the first section be the only one that is not vertically centered
+. Center the text inside the sections vertically and horizontally
+. In case you haven't already, make span elements display flex and see how the paragraph on the bottom changes
 ****
 
