@@ -1,3 +1,5 @@
+:imagesdir: images
+
 = Software Starter Kit - CSS
 
 This repository contains exercises to get familiar with CSS.
@@ -14,7 +16,7 @@ In CSS, every Element has a Box consisting of margin, border, padding, and conte
 
 .Exercise
 ****
-https://codepen.io/TPlise/pen/gOEvZME[Codepen] 
+https://codepen.io/TPlise/pen/gOEvZME?editors=1100[CodePen]
 
 . Change the display value of paragraphs and spans and see how the layout changes
 . Apply padding and margins to an element with display block and an element with display inline
@@ -35,7 +37,7 @@ Flexbox allows you to layout elements in one dimension, as row or as a column.
 
 .Exercise
 ****
-https://codepen.io/TPlise/pen/zYbWZxo[Codepen] 
+https://codepen.io/TPlise/pen/zYbWZxo?editors=1100[CodePen]
 
 . Align the sections next to each other
 . Center the article both horizontally and vertically
@@ -47,3 +49,24 @@ https://codepen.io/TPlise/pen/zYbWZxo[Codepen]
 . In case you haven't already, make span elements display flex and see how the paragraph on the bottom changes
 ****
 
+== Grid layout
+
+Grid layout allows you to layout elements in two dimensions having rows and columns.
+
+.Sources
+- https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids[MDN] & https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout#guides[Guides on MDN]
+- https://www.joshwcomeau.com/css/interactive-guide-to-grid[An Interactive Guide to CSS Grid]
+
+.Showcase
+- https://codepen.io/techboard/pen/qBvomVG?editors=1100[CodePen]
+
+.Exercise
+****
+https://codepen.io/techboard/pen/oNVqeaP?editors=1100[CodePen]
+
+Try to create the following layout:
+
+image::Holy grail with Grid.png[]
+
+You can either focus on the layout of the page itself (header, footer, navigation, sidebar) or on the layout of the product cards or both.
+****
